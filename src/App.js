@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
+import {Cars} from './features/cars/Cars';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <h1>Cars App</h1>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -49,8 +51,12 @@ function App() {
           >
             React Redux
           </a>
-        </span>
+        </span> */}
       </header>
+      <main>
+      <Counter />
+        {/* <Cars /> */}
+      </main>
     </div>
   );
 }
